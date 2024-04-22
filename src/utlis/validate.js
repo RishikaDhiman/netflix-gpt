@@ -1,9 +1,9 @@
 export const checkValidData =(email, password)=> {
 
-    if(email==""){
+    if(email===""){
         return "Enter email address";
     }
-    if(password==""){
+    if(password===""){
         return "Enter password";
     }
     const isEmailValid = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email);

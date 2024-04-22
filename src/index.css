@@ -6,6 +6,7 @@
     sans-serif;
 }
 .header{
+  width: 100vw;
   padding: 8px 150px;
   position: absolute;
   /* border: 10px solid black; */
