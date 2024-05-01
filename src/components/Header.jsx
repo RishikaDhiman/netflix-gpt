@@ -18,7 +18,6 @@ const Header = () => {
   return (
     <div className='header'>
       <img src={Netflix_Logo_PMS} style={{width:155}}/>
-
       {user!=null && <button onClick={()=>handleSignOut()}>Sign out</button>}
     </div>
   )
